@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfandega</title>
+    <style>
+        body {
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>FRONTEIRA</h1>
+    Você é nativo da(do) <input type="text" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" onclick="check()">
+    <div id="res">
+
+    </div>
+    <script>
+        function check() {
+            var txtv = document.getElementById('txtvel')
+            var res = document.getElementById('res')
+            var pais = String(txtv.value)
+            if(pais == 'Brasil') {
+                res.innerHTML = `<p>Você é <strong>Brasileiro!</strong></p>`
+            } else {
+                res.innerHTML = `<p>Você é <strong>Estrangeiro!</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
