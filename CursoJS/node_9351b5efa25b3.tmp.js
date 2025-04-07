@@ -1,19 +1,18 @@
 let valores = [8,1,7,4,2,9]
 valores.sort()
-let c = 0;
 
-let intervalo = setInterval(() => {
+
+setInterval(() => {
+    function ordem() {
         console.log(valores)
-        c++
-        
-        if (c == 4) {
-            clearInterval(intervalo)
+        return valores
     }
+    console.log(valores)
 }, 1500);
 
-
-
-
+for (c = 1; c < 4; c++){
+    clearInterval(setInterval)
+}
 
 /*
 let counter = 0
