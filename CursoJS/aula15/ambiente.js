@@ -16,4 +16,3 @@ console.log(`O valor 8 está na posição ${pos}`)
     console.log('O valor não foi encontrado')
 }
 
-
