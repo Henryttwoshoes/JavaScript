@@ -21,7 +21,7 @@ function rgbtoHex(r, g, b){
         Ele adiciona caracteres no início de uma string até que ela atinja um comprimento especificado, no modelo:
             - .padStart(X, "[string]")
                 - em que X é número de caracteres adicionados no começo da string;
-                - e a string entre parenteses é o caractere a ser adicionado.
+                - e a string entre parenteses é o(s) caractere(s) a ser adicionado.
         
         */ 
     const green = g.toString(16).padStart(2, "0");
