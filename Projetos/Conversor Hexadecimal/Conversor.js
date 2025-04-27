@@ -1,17 +1,14 @@
 function rgbtoHex(r, g, b){
-    //Convertendo os números para hexadecimal
-
-    
+//Convertendo os números para hexadecimal
     
     const red = r.toString(16).padStart(2, "0");
-    // .toString(16) converte os valores para a base hexadecimal
+// .toString(16) converte os valores para a base hexadecimal
         /*
         
             A função .toString possui essa propriedade especial de converter strings para bases numéricas, como hexadecimal. Basta colocar o valor da base no () e GG!
+*/
 
-        */
-    
-    // o uso de constantes diminui o risco de erros
+// o uso de constantes diminui o risco de erros
     
     
     // .padStart adiciona um zero à esquerda se necessário
